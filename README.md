@@ -12,6 +12,7 @@ add the following config for page speed
 # create the following directory
 
 mkdir /var/ngx_pagespeed_cache
+
 chown nginx:nginx /var/ngx_pagespeed_cache
 
 fut the following code in your nginx server block

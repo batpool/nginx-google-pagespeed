@@ -9,7 +9,8 @@ systemctl restart nginx
 
 add the following config for page speed
 
-create the following directory
+# create the following directory
+
 mkdir /var/ngx_pagespeed_cache
 chown nginx:nginx /var/ngx_pagespeed_cache
 
